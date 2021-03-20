@@ -1,5 +1,9 @@
 require "active_support/core_ext/integer/time"
 
+class Application < Rails::Application
+  config.web_console.whitelisted_ips = '192.168.0.119'
+end
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
