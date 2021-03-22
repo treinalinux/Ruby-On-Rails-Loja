@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
+# Mensagens
+gem 'rails-i18n', '~> 6.0.0'
 # Bootstrap adicionado no projeto loja
 gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
