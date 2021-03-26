@@ -1,6 +1,8 @@
 # README
 
-### Projeto Loja Parte 1 foi finalizado.
+### Projeto Loja foi finalizado e Publicado no Heroku
+
+[lojatreinalinux.herokuapp.com](https://lojatreinalinux.herokuapp.com)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
