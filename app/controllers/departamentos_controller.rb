@@ -26,7 +26,8 @@ class DepartamentosController < ApplicationController
 
     respond_to do |format|
       if @departamento.save
-        format.html { redirect_to @departamento, notice: "Departamento was successfully created." }
+        # format.html { redirect_to @departamento, notice: "Departamento was successfully created." }
+        format.html { redirect_to departamentos_url, notice: "Departamento foi criado com sucesso." }
         format.json { render :show, status: :created, location: @departamento }
       else
         format.html { render :new, status: :unprocessable_entity }
