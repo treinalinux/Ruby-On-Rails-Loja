@@ -221,7 +221,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bootsnap (>= 1.4.4)
+  bootsnap (>= 1.6.0)
   byebug
   capybara (>= 3.26)
   jbuilder (~> 2.7)
@@ -246,4 +246,4 @@ RUBY VERSION
    ruby 2.7.1p83
 
 BUNDLED WITH
-   2.1.4
+   2.2.15
